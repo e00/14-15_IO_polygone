@@ -1,2 +1,5 @@
-14-15_IO_Polygone
+Polygon Stack
 =================
+Projekt Eingabe / Ausgabe
+Semester 14/15
+FHP
