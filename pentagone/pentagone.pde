@@ -8,7 +8,7 @@ void setup() {
   xPoints = new IntList();
   yPoints = new IntList();
 
-// draw first pentagon
+  // draw first pentagon
   int xOrigin = 500;
   int yOrigin = 500;
   int rOrigin = 5;
@@ -25,7 +25,6 @@ void setup() {
     yPoints.append(b);
   }
   endShape(CLOSE);
-  
 }
 
 void draw() {
@@ -43,7 +42,7 @@ void draw() {
   xPoints.remove(point2);
   yPoints.remove(point2);
 
-  // break loop and save screenshot if distance between points is > 3000
+  // break loop and save screenshot if distance between points is >= 3000
   if (dist(xVal1, yVal1, xVal2, yVal2) < 3000) {
     createPentagon(xVal1, yVal1, xVal2, yVal2);
   }
