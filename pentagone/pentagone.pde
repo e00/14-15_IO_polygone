@@ -58,7 +58,7 @@ void createPentagon(int xStartValue1, int yStartValue1, int xStartValue2, int yS
   int e_y = yStartValue2 - yStartValue1;
   
   colorMode(HSB, 500);
-  color c = color((yStartValue1)-400, 500, 500);
+  color c = color(mouseY/2, 500, 500);
   fill(c, 20);
   stroke(500, 200);
   
