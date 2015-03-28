@@ -1,10 +1,11 @@
 Polygon Stack
 =================
-Project Input/Output
-Semester 14/15
+
+**Course** Input/Output
+
+**Semester** 2014/15
+
 University of Applied Sciences Potsdam
 
 
-
-CC BY-SA 4.0
-http://creativecommons.org/licenses/by-sa/4.0/
+**processing-code for the algorithm project - generating pentagon-pattern based on a starting point and size**
