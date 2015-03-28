@@ -1,4 +1,4 @@
-Polygon Stack
+Pentagon Stack
 =================
 
 Course **Input/Output**
